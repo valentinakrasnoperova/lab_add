@@ -197,7 +197,7 @@ public class SupportService {
             for (int ticketId : tickets) {
                 System.out.println(listOfTickets.get(ticketId));
             }
-            System.out.println("------------------------------------------------");
+            System.out.print("------------------------------------------------"+"\n");
         }
         System.out.println("=======================================================");
     }
