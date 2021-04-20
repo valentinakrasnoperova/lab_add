@@ -27,7 +27,7 @@ public class SupportService {
         for (int i = 0; i < 10; i++) {
             suppService.addNewCustomer(i, "customerUserName" + i, "password" + i,
                     suppService.profilesId, "Customer" + i + " Name" + i, "Customer" + i + " Surname" + i,
-                    "customer" + i + "email@bla.com", "+3809325418" + i, "address" + i,
+                    "customer" + i + "customerem@gmail.com", "+3809788834" + i, "address" + i,
                     "postalCode" + i);
 
             suppService.profilesId++;
@@ -36,7 +36,7 @@ public class SupportService {
         for (int i = 0; i < 3; i++) {
             suppService.addNewSpecialist(i, "specialistUserName" + i, "password" + i,
                     suppService.profilesId, "Specialist" + i + " Name" + i, "Specialist" + i + " Surname" + i,
-                    "specialist" + i + "email@bla.com", "+3809325418" + i, "address" + i,
+                    "specialist" + i + "customerem@gmail.com", "+3809788834" + i, "address" + i,
                     "postalCode" + i);
 
             suppService.profilesId++;
@@ -103,7 +103,7 @@ public class SupportService {
 
         /*
 
-        #fetch_all_customers - displays all clients with their respective profiles
+        ##fetch_all_customers - displays all clients with their respective profiles
         #fetch_all_tickets - displays all packages with clients without profiles
         #fetch_all_specialists - displays all those employees with profiles and tickets
         #fetch_all_services - displays all services with the respective clients
